@@ -3,7 +3,7 @@ var express = require("express");
 var router = express.Router();
 router.get("/", function(req,res){
 
-    console.log("hello i'm on the start");
+    console.log("Sever working!!!");
     res.render("index");
 });
 
